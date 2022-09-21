@@ -1,5 +1,88 @@
+html{
+    background-color: bisque;
+}
+
+a{
+    font-size: 30px;
+
+}
+
+h1, section > p{
+    background-color: blueviolet;
+    color: white;
+}
+
 p{
     color : red;
     font-size: 20px;
-    font-family: monospace;
+    /* font-family: monospace; */
+}
+
+#my-paragraph{
+    color: hotpink;
+}
+
+iframe{
+    width: 560px;
+    height: 315px;
+}
+
+.italic_text{
+    font-style: italic;
+}
+
+h1.italic_text{
+    font-style: italic;
+}
+
+p:not(.italic_text){
+    font-weight: bold;
+}
+
+#logo{
+    height: 150px;
+}
+
+img{
+    height: 650px;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav > a {
+    background-color: darkgrey;
+}
+
+
+img ~ p {
+    border-width: 5px;
+    border-color: deepskyblue;
+    border-style: solid;
+}
+
+p:hover{
+    color: rgb(26, 9, 219);
+    border: dashed 3px lime;
+}
+
+p:active{
+    font-size: 30px;
+}
+
+img:active{
+    height: 400px;
+}
+
+a:link{
+    color: rgb(4, 255, 255);
+}
+
+a:visited{
+    color: rgb(4, 255, 255);
+}
+
+a:nth-of-type(2){
+    border: solid 3px rgb(255, 0, 0);
 }
